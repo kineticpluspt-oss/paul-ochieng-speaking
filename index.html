@@ -3,268 +3,1252 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Paul Ochieng — Keynote Speaker | Author | Coach</title>
+<title>Paul Ochieng â Keynote Speaker | Build Leaders Who Stand Firm Under Pressure</title>
+<meta name="description" content="Paul Ochieng is a keynote speaker, author, and coach who helps organizations build leaders with confidence, resilience, and aligned action. Available for corporate events, universities, and faith-based organizations.">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <style>
-:root{--bg:#07090B;--gold:#C9962B;--gold-lt:#E8B84B;--green:#1B4D3E;--green-mid:#2D6A4F;--off-white:#F0EDE8;--gray-lt:#C8C4BC;--gray-md:#8A8480;}
-*{box-sizing:border-box;margin:0;padding:0;}
-body{background:var(--bg);color:var(--gray-lt);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;}
-a{color:var(--gold);text-decoration:none;}
-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(7,9,11,0.95);backdrop-filter:blur(10px);border-bottom:1px solid #1E2228;padding:0 5%;}
-.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px;}
-.nav-logo{font-size:16px;font-weight:700;color:var(--off-white);display:flex;align-items:center;gap:8px;}
-.nav-logo .bar{width:3px;height:22px;background:var(--gold);border-radius:2px;}
-.nav-links{display:flex;gap:28px;}
-.nav-links a{font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--gray-md);transition:color 0.15s;}
-.nav-links a:hover{color:var(--gold);}
-.btn{display:inline-block;padding:12px 28px;border-radius:6px;font-size:13px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;transition:all 0.15s;}
-.btn-gold{background:var(--gold);color:var(--bg);}
-.btn-gold:hover{background:var(--gold-lt);}
-.btn-outline{border:1.5px solid var(--gold);color:var(--gold);}
-.btn-outline:hover{background:var(--gold);color:var(--bg);}
-section{padding:100px 5%;}
-.container{max-width:1200px;margin:0 auto;}
-#hero{padding-top:160px;min-height:100vh;display:flex;align-items:center;background:radial-gradient(ellipse at 70% 50%,rgba(27,77,62,0.15) 0%,transparent 60%);}
-.hero-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;}
-.hero-tag{font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;}
-.hero-title{font-size:clamp(36px,5vw,64px);font-weight:700;color:var(--off-white);line-height:1.1;letter-spacing:-0.02em;margin-bottom:24px;}
-.hero-title span{color:var(--gold);}
-.hero-sub{font-size:18px;color:var(--gray-lt);margin-bottom:36px;max-width:480px;line-height:1.7;}
-.hero-btns{display:flex;gap:14px;flex-wrap:wrap;}
-.hero-book{background:linear-gradient(135deg,var(--green) 0%,#0A1F18 100%);border:1px solid var(--green-mid);border-radius:12px;padding:32px;text-align:center;}
-.hero-book-title{font-size:28px;font-weight:700;color:var(--off-white);line-height:1;}
-.hero-book-title span{color:var(--gold);display:block;}
-.hero-book-sub{font-size:12px;color:var(--gray-md);letter-spacing:0.1em;text-transform:uppercase;margin:12px 0 20px;}
-.hero-book-quote{font-size:13px;color:var(--gray-lt);font-style:italic;line-height:1.6;}
-#about{background:#0D1117;}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
-.section-label{font-size:10px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
-.section-title{font-size:clamp(28px,4vw,44px);font-weight:700;color:var(--off-white);line-height:1.2;margin-bottom:24px;}
-.about-body p{font-size:16px;color:var(--gray-lt);line-height:1.8;margin-bottom:16px;}
-.cred-list{list-style:none;margin-top:28px;}
-.cred-list li{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--gray-lt);padding:8px 0;border-bottom:1px solid #1E2228;}
-.cred-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);flex-shrink:0;}
-.stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-.stat-card{background:var(--bg);border:1px solid #1E2228;border-radius:8px;padding:24px;text-align:center;}
-.stat-num{font-size:36px;font-weight:700;color:var(--gold);line-height:1;}
-.stat-label{font-size:11px;color:var(--gray-md);letter-spacing:0.1em;text-transform:uppercase;margin-top:6px;}
-#talks{background:var(--bg);}
-.talks-intro{text-align:center;max-width:640px;margin:0 auto 60px;}
-.talks-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
-.talk-card{background:#0D1117;border:1px solid #1E2228;border-radius:10px;padding:28px;position:relative;overflow:hidden;transition:border-color 0.2s;}
-.talk-card:hover{border-color:var(--gold);}
-.talk-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--gold);}
-.talk-num{font-size:32px;font-weight:700;color:#1E2228;line-height:1;margin-bottom:12px;}
-.talk-title{font-size:16px;font-weight:700;color:var(--off-white);margin-bottom:10px;line-height:1.3;}
-.talk-desc{font-size:13px;color:var(--gray-md);line-height:1.6;}
-.talk-formats{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap;}
-.talk-format{font-size:10px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:3px 8px;border-radius:4px;background:rgba(201,150,43,0.1);border:1px solid rgba(201,150,43,0.3);color:var(--gold);}
-#audiences{background:#0D1117;}
-.aud-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
-.aud-card{background:var(--green);border:1px solid var(--green-mid);border-radius:8px;padding:24px 20px;}
-.aud-icon{font-size:24px;margin-bottom:12px;}
-.aud-title{font-size:14px;font-weight:700;color:var(--gold-lt);margin-bottom:6px;}
-.aud-desc{font-size:12px;color:var(--gray-lt);line-height:1.5;}
-#testimonials{background:var(--bg);}
-.testi-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;}
-.testi-card{background:#0D1117;border:1px solid #1E2228;border-left:4px solid var(--gold);border-radius:8px;padding:28px;}
-.testi-quote{font-size:15px;color:var(--off-white);line-height:1.7;font-style:italic;margin-bottom:16px;}
-.testi-attr{font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);}
-#book{background:#0D1117;}
-.book-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;}
-.book-cover{background:linear-gradient(135deg,var(--green) 0%,#0A1F18 100%);border:1px solid var(--green-mid);border-radius:16px;padding:60px 40px;text-align:center;}
-.book-cover-title{font-size:48px;font-weight:700;color:var(--off-white);line-height:1;}
-.book-cover-sub{font-size:48px;font-weight:700;color:var(--gold);line-height:1;}
-.book-cover-line{width:60px;height:3px;background:var(--gold);margin:16px auto;}
-.book-cover-tagline{font-size:13px;color:var(--gray-lt);line-height:1.6;max-width:240px;margin:0 auto;}
-.book-detail p{font-size:16px;color:var(--gray-lt);line-height:1.8;margin-bottom:16px;}
-.book-chapters{margin-top:24px;}
-.chapter-item{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #1E2228;font-size:13px;color:var(--gray-md);}
-.chapter-num{color:var(--gold);font-weight:700;width:28px;flex-shrink:0;}
-#booking{background:var(--bg);}
-.booking-inner{text-align:center;max-width:640px;margin:0 auto;}
-.booking-inner p{font-size:17px;color:var(--gray-lt);margin:20px 0 36px;line-height:1.7;}
-.booking-details{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px;}
-.booking-detail{background:#0D1117;border:1px solid #1E2228;border-radius:8px;padding:20px;}
-.booking-detail-label{font-size:9px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-bottom:8px;}
-.booking-detail-val{font-size:13px;color:var(--off-white);}
-footer{background:#0D1117;border-top:1px solid #1E2228;padding:40px 5%;text-align:center;}
-footer p{font-size:12px;color:var(--gray-md);}
-@media(max-width:768px){.hero-inner,.about-grid,.book-inner{grid-template-columns:1fr;}.talks-grid,.aud-grid,.testi-grid,.booking-details{grid-template-columns:1fr;}.stats-grid{grid-template-columns:1fr 1fr;}.nav-links{display:none;}}
+/* âââ TOKENS âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+:root {
+  --bg:        #07090B;
+  --bg2:       #0D1117;
+  --bg3:       #12171D;
+  --surface:   #161C22;
+  --border:    #1E2630;
+  --border2:   #252E38;
+  --gold:      #C9962B;
+  --gold-lt:   #E8B84B;
+  --gold-dim:  rgba(201,150,43,.12);
+  --gold-dim2: rgba(201,150,43,.08);
+  --green:     #1B4D3E;
+  --green-mid: #2D6A4F;
+  --off-white: #F0EDE8;
+  --gray-lt:   #C0BBB3;
+  --gray-md:   #7A8490;
+  --gray-dk:   #3A4450;
+  --red:       #E05252;
+  --radius:    10px;
+  --radius-lg: 16px;
+  --nav-h:     68px;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--gray-lt);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--gold); text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+/* âââ UTILITIES âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+.container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+.section { padding: 100px 0; }
+.section-sm { padding: 70px 0; }
+.label {
+  display: inline-block;
+  font-size: 10px; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 14px;
+}
+.heading {
+  font-size: clamp(28px,4vw,44px);
+  font-weight: 700; color: var(--off-white);
+  line-height: 1.15; letter-spacing: -.02em;
+  margin-bottom: 20px;
+}
+.heading-xl {
+  font-size: clamp(36px,5.5vw,64px);
+  font-weight: 800; color: var(--off-white);
+  line-height: 1.08; letter-spacing: -.03em;
+}
+.gold { color: var(--gold); }
+.subtext { font-size: 17px; color: var(--gray-lt); line-height: 1.7; max-width: 580px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; }
+.flex-center { display: flex; align-items: center; justify-content: center; }
+.text-center { text-align: center; }
+.divider { width: 48px; height: 3px; background: var(--gold); border-radius: 2px; margin: 0 0 28px; }
+.divider-center { margin: 0 auto 28px; }
+
+/* âââ BUTTONS âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 28px; border-radius: 8px;
+  font-size: 14px; font-weight: 700; letter-spacing: .04em;
+  cursor: pointer; border: none; transition: all .18s;
+  text-transform: uppercase;
+}
+.btn-gold {
+  background: var(--gold); color: #07090B;
+}
+.btn-gold:hover { background: var(--gold-lt); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(201,150,43,.28); }
+.btn-outline {
+  background: transparent; color: var(--off-white);
+  border: 1.5px solid var(--border2);
+}
+.btn-outline:hover { border-color: var(--gold); color: var(--gold); }
+.btn-lg { padding: 16px 36px; font-size: 15px; }
+.btn-sm { padding: 9px 18px; font-size: 12px; }
+.btn-ghost { background: transparent; color: var(--gray-md); border: 1px solid var(--border); }
+.btn-ghost:hover { color: var(--gold); border-color: var(--gold); }
+
+/* âââ NAVIGATION ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+  background: rgba(7,9,11,.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  height: var(--nav-h);
+}
+.nav-inner {
+  max-width: 1180px; margin: 0 auto; padding: 0 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 100%;
+}
+.nav-logo {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 15px; font-weight: 700; color: var(--off-white);
+  letter-spacing: .04em;
+}
+.nav-logo .bar {
+  width: 3px; height: 24px;
+  background: var(--gold); border-radius: 2px; flex-shrink: 0;
+}
+.nav-links {
+  display: flex; align-items: center; gap: 32px;
+}
+.nav-links a {
+  font-size: 12px; font-weight: 600; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--gray-md);
+  transition: color .15s;
+}
+.nav-links a:hover { color: var(--off-white); }
+.nav-cta { display: flex; align-items: center; gap: 12px; }
+.nav-hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  cursor: pointer; padding: 4px;
+}
+.nav-hamburger span {
+  display: block; width: 22px; height: 2px;
+  background: var(--off-white); border-radius: 1px;
+  transition: all .2s;
+}
+.mobile-menu {
+  display: none; position: fixed; top: var(--nav-h); left: 0; right: 0;
+  background: rgba(7,9,11,.98); padding: 24px;
+  border-bottom: 1px solid var(--border); z-index: 998;
+}
+.mobile-menu.open { display: block; }
+.mobile-menu a {
+  display: block; padding: 12px 0;
+  font-size: 14px; font-weight: 600; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--gray-lt);
+  border-bottom: 1px solid var(--border);
+}
+.mobile-menu a:last-child { border-bottom: none; }
+.mobile-menu .btn { width: 100%; justify-content: center; margin-top: 16px; }
+
+/* âââ HERO ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#hero {
+  padding-top: calc(var(--nav-h) + 80px);
+  padding-bottom: 100px;
+  background:
+    radial-gradient(ellipse at 65% 40%, rgba(27,77,62,.18) 0%, transparent 55%),
+    radial-gradient(ellipse at 20% 80%, rgba(201,150,43,.06) 0%, transparent 50%),
+    var(--bg);
+  position: relative; overflow: hidden;
+}
+#hero::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231E2630' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: .35; pointer-events: none;
+}
+.hero-inner {
+  display: grid; grid-template-columns: 1fr auto;
+  gap: 60px; align-items: center;
+  position: relative; z-index: 1;
+}
+.hero-eyebrow {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 11px; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gold);
+  margin-bottom: 24px;
+}
+.hero-eyebrow-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+.hero-title {
+  font-size: clamp(36px, 5.5vw, 62px);
+  font-weight: 800; color: var(--off-white);
+  line-height: 1.06; letter-spacing: -.03em;
+  margin-bottom: 24px;
+}
+.hero-title .line2 { color: var(--gold); }
+.hero-sub {
+  font-size: 18px; color: var(--gray-lt);
+  line-height: 1.72; max-width: 520px; margin-bottom: 40px;
+}
+.hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+.hero-card {
+  background: linear-gradient(145deg, #0F1A14 0%, #0A120D 100%);
+  border: 1px solid rgba(27,77,62,.5);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px; min-width: 240px; max-width: 280px;
+  text-align: center; position: relative; overflow: hidden;
+}
+.hero-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 2px; background: linear-gradient(90deg, var(--gold), transparent);
+}
+.hero-card-title {
+  font-size: 42px; font-weight: 800; color: var(--off-white); line-height: 1;
+}
+.hero-card-sub {
+  font-size: 42px; font-weight: 800; color: var(--gold); line-height: 1;
+}
+.hero-card-divider { width: 36px; height: 2px; background: var(--gold); margin: 14px auto; }
+.hero-card-tag {
+  font-size: 9px; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--gray-md);
+  margin-bottom: 10px;
+}
+.hero-card-quote {
+  font-size: 12px; color: var(--gray-lt); line-height: 1.6; font-style: italic;
+}
+.hero-proof {
+  display: flex; align-items: center; gap: 24px;
+  margin-top: 40px; padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+.hero-proof-item { font-size: 12px; color: var(--gray-md); }
+.hero-proof-item strong { display: block; font-size: 20px; color: var(--off-white); font-weight: 700; }
+.hero-proof-divider { width: 1px; height: 36px; background: var(--border2); }
+
+/* âââ TRUST BAR âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#trust {
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 36px 0;
+}
+.trust-label {
+  font-size: 10px; font-weight: 700; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--gray-dk);
+  text-align: center; margin-bottom: 24px;
+}
+.trust-logos {
+  display: flex; align-items: center; justify-content: center;
+  gap: 48px; flex-wrap: wrap;
+}
+.trust-logo {
+  font-size: 13px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--gray-dk);
+  opacity: .7; transition: opacity .2s;
+  white-space: nowrap;
+}
+.trust-logo:hover { opacity: 1; }
+
+/* âââ ABOUT âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#about { background: var(--bg2); }
+.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.about-copy p { font-size: 16px; color: var(--gray-lt); line-height: 1.82; margin-bottom: 20px; }
+.about-creds { margin-top: 32px; }
+.about-cred {
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+  font-size: 14px; color: var(--gray-lt);
+}
+.about-cred:first-child { border-top: 1px solid var(--border); }
+.about-cred-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; }
+.about-proof { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.proof-card {
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 24px 20px;
+}
+.proof-card .num {
+  font-size: 36px; font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 6px;
+}
+.proof-card .lbl {
+  font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--gray-md);
+}
+.proof-card.accent { border-color: rgba(201,150,43,.3); background: var(--gold-dim2); }
+
+/* âââ TALKS âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#talks { background: var(--bg); }
+.talks-header { text-align: center; max-width: 620px; margin: 0 auto 56px; }
+.talks-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 20px; }
+.talk-card {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); padding: 32px;
+  position: relative; overflow: hidden; transition: border-color .2s, transform .2s;
+  display: flex; flex-direction: column;
+}
+.talk-card::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0;
+  height: 2px; background: var(--gold); transform: scaleX(0);
+  transform-origin: left; transition: transform .3s;
+}
+.talk-card:hover { border-color: rgba(201,150,43,.4); transform: translateY(-2px); }
+.talk-card:hover::before { transform: scaleX(1); }
+.talk-num {
+  font-size: 48px; font-weight: 800;
+  color: var(--border2); line-height: 1; margin-bottom: 16px;
+}
+.talk-title {
+  font-size: 18px; font-weight: 700; color: var(--off-white);
+  margin-bottom: 12px; line-height: 1.3;
+}
+.talk-desc { font-size: 14px; color: var(--gray-md); line-height: 1.68; margin-bottom: 20px; }
+.talk-meta { margin-top: auto; padding-top: 20px; border-top: 1px solid var(--border); }
+.talk-meta-row { display: flex; gap: 8px; margin-bottom: 8px; align-items: flex-start; }
+.talk-meta-label {
+  font-size: 9px; font-weight: 700; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--gold);
+  min-width: 80px; padding-top: 2px; flex-shrink: 0;
+}
+.talk-meta-val { font-size: 12px; color: var(--gray-lt); line-height: 1.5; }
+.talk-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 16px; }
+.tag {
+  font-size: 10px; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; padding: 4px 10px; border-radius: 4px;
+  background: var(--gold-dim); color: var(--gold);
+  border: 1px solid rgba(201,150,43,.25);
+}
+
+/* âââ AUDIENCES âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#audiences { background: var(--bg2); }
+.aud-header { text-align: center; max-width: 580px; margin: 0 auto 52px; }
+.aud-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
+.aud-card {
+  background: linear-gradient(145deg, var(--green) 0%, #0E2A21 100%);
+  border: 1px solid rgba(45,106,79,.5);
+  border-radius: var(--radius-lg); padding: 28px 22px;
+  transition: transform .2s, border-color .2s;
+}
+.aud-card:hover { transform: translateY(-3px); border-color: var(--green-mid); }
+.aud-icon { font-size: 28px; margin-bottom: 14px; }
+.aud-title {
+  font-size: 14px; font-weight: 700; color: var(--gold-lt);
+  margin-bottom: 10px; letter-spacing: .02em;
+}
+.aud-items { list-style: none; }
+.aud-items li {
+  font-size: 12px; color: var(--gray-lt); padding: 4px 0;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  display: flex; gap: 6px; align-items: flex-start;
+}
+.aud-items li::before { content: 'â'; color: var(--gold); flex-shrink: 0; }
+
+/* âââ VIDEO âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#video { background: var(--bg); }
+.video-header { text-align: center; max-width: 600px; margin: 0 auto 16px; }
+.video-sub { font-size: 15px; color: var(--gray-md); text-align: center; margin-bottom: 40px; }
+.video-frame {
+  max-width: 860px; margin: 0 auto;
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); overflow: hidden; position: relative;
+  aspect-ratio: 16/9;
+}
+.video-placeholder {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 16px;
+  background: linear-gradient(145deg, #0F1A14 0%, var(--bg3) 100%);
+  cursor: pointer; transition: background .2s;
+}
+.video-placeholder:hover { background: linear-gradient(145deg, #142010 0%, #1a2030 100%); }
+.video-play {
+  width: 72px; height: 72px; border-radius: 50%;
+  background: var(--gold); display: flex; align-items: center; justify-content: center;
+  transition: transform .2s, background .2s;
+}
+.video-placeholder:hover .video-play { transform: scale(1.08); background: var(--gold-lt); }
+.video-play-icon {
+  width: 0; height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 22px solid #07090B;
+  margin-left: 4px;
+}
+.video-placeholder-text {
+  font-size: 14px; font-weight: 600; color: var(--gray-md); letter-spacing: .06em;
+}
+.video-note { text-align: center; margin-top: 14px; font-size: 12px; color: var(--gray-dk); }
+
+/* âââ EVENT PLANNER âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#planner { background: var(--bg2); }
+.planner-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+.planner-copy h2 { margin-bottom: 20px; }
+.planner-copy p { font-size: 15px; color: var(--gray-lt); line-height: 1.78; margin-bottom: 16px; }
+.planner-options { margin-top: 32px; }
+.planner-options-title {
+  font-size: 11px; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 14px;
+}
+.format-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 20px; }
+.format-card {
+  background: var(--bg3); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 16px 14px; text-align: center;
+  transition: border-color .2s;
+}
+.format-card:hover { border-color: rgba(201,150,43,.4); }
+.format-card .time {
+  font-size: 20px; font-weight: 800; color: var(--gold); line-height: 1;
+}
+.format-card .ftype {
+  font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--gray-md); margin-top: 4px;
+}
+.planner-features { margin-top: 24px; display: flex; flex-direction: column; gap: 10px; }
+.planner-feature {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 14px; background: var(--bg3); border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.planner-feature-icon {
+  width: 32px; height: 32px; border-radius: 8px;
+  background: var(--gold-dim); display: flex; align-items: center;
+  justify-content: center; font-size: 16px; flex-shrink: 0;
+}
+.planner-feature-text strong {
+  display: block; font-size: 13px; color: var(--off-white); margin-bottom: 2px;
+}
+.planner-feature-text span { font-size: 12px; color: var(--gray-md); line-height: 1.5; }
+
+/* âââ TESTIMONIALS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#testimonials { background: var(--bg); }
+.testi-header { text-align: center; max-width: 580px; margin: 0 auto 52px; }
+.testi-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 20px; }
+.testi-card {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-left: 4px solid var(--gold); border-radius: var(--radius-lg);
+  padding: 32px; transition: transform .2s, border-color .2s;
+}
+.testi-card:hover { transform: translateY(-2px); border-color: rgba(201,150,43,.5); border-left-color: var(--gold); }
+.testi-stars { color: var(--gold); font-size: 13px; letter-spacing: 2px; margin-bottom: 16px; }
+.testi-quote {
+  font-size: 15px; color: var(--off-white); line-height: 1.72;
+  font-style: italic; margin-bottom: 20px;
+}
+.testi-author { display: flex; align-items: center; gap: 12px; }
+.testi-avatar {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--surface); border: 2px solid var(--border2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700; color: var(--gold);
+  flex-shrink: 0;
+}
+.testi-name { font-size: 13px; font-weight: 700; color: var(--off-white); }
+.testi-role { font-size: 11px; color: var(--gray-md); margin-top: 2px; }
+
+/* âââ BOOK ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#book { background: var(--bg2); }
+.book-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.book-cover {
+  background: linear-gradient(145deg, var(--green) 0%, #0A1A12 100%);
+  border: 1px solid rgba(45,106,79,.5);
+  border-radius: var(--radius-lg); padding: 56px 40px; text-align: center;
+  position: relative; overflow: hidden;
+}
+.book-cover::after {
+  content: ''; position: absolute; bottom: -40px; right: -40px;
+  width: 160px; height: 160px; border-radius: 50%;
+  background: rgba(201,150,43,.06); pointer-events: none;
+}
+.book-title { font-size: 52px; font-weight: 800; color: var(--off-white); line-height: 1; }
+.book-subtitle { font-size: 52px; font-weight: 800; color: var(--gold); line-height: 1; }
+.book-rule { width: 56px; height: 3px; background: var(--gold); margin: 16px auto; }
+.book-tagline {
+  font-size: 13px; color: var(--gray-lt); line-height: 1.6;
+  max-width: 240px; margin: 0 auto 16px; font-style: italic;
+}
+.book-author { font-size: 10px; letter-spacing: .15em; text-transform: uppercase; color: var(--gray-md); }
+.book-copy p { font-size: 16px; color: var(--gray-lt); line-height: 1.8; margin-bottom: 18px; }
+.book-uses { margin: 24px 0; display: flex; flex-direction: column; gap: 10px; }
+.book-use {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 13px; color: var(--gray-lt);
+}
+.book-use-icon { font-size: 16px; }
+
+/* âââ CALENDLY INLINE âââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#schedule { background: var(--bg); }
+.schedule-header { text-align: center; max-width: 600px; margin: 0 auto; }
+.schedule-header p {
+  font-size: 16px; color: var(--gray-md); margin-top: 16px; margin-bottom: 40px;
+}
+.calendly-wrap {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius-lg); overflow: hidden;
+}
+.calendly-inline-widget { min-width: 320px; height: 720px; }
+
+/* âââ FINAL CTA âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+#booking {
+  background: linear-gradient(145deg, #0A1A12 0%, var(--bg) 60%);
+  border-top: 1px solid var(--border);
+}
+.booking-inner { text-align: center; max-width: 660px; margin: 0 auto; }
+.booking-inner p {
+  font-size: 17px; color: var(--gray-lt); margin: 20px 0 36px; line-height: 1.75;
+}
+.booking-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+.booking-email {
+  display: block; margin-top: 18px;
+  font-size: 13px; color: var(--gray-md);
+}
+.booking-email a { color: var(--gold); }
+.booking-details {
+  display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin-top: 48px;
+}
+.booking-detail {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px 16px;
+}
+.booking-detail-label {
+  font-size: 9px; font-weight: 700; letter-spacing: .15em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 8px;
+}
+.booking-detail-val { font-size: 13px; color: var(--off-white); }
+
+/* âââ FOOTER ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+footer {
+  background: var(--bg2);
+  border-top: 1px solid var(--border);
+  padding: 40px 0;
+}
+.footer-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 20px;
+}
+.footer-logo { font-size: 14px; font-weight: 700; color: var(--off-white); display: flex; align-items: center; gap: 8px; }
+.footer-logo .bar { width: 3px; height: 20px; background: var(--gold); border-radius: 2px; }
+footer p { font-size: 12px; color: var(--gray-md); }
+footer a { color: var(--gray-md); transition: color .15s; }
+footer a:hover { color: var(--gold); }
+
+/* âââ SECTION ACCENT BARS âââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+.accent-bar {
+  display: inline-flex; align-items: center; gap: 8px; margin-bottom: 12px;
+}
+.accent-bar::before {
+  content: ''; display: block; width: 24px; height: 2px;
+  background: var(--gold); border-radius: 1px;
+}
+
+/* âââ SCROLL REVEAL (simple) ââââââââââââââââââââââââââââââââââââââââââââââââââ */
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s, transform .5s; }
+.reveal.visible { opacity: 1; transform: none; }
+
+/* âââ RESPONSIVE ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ */
+@media (max-width: 1024px) {
+  .aud-grid { grid-template-columns: repeat(2,1fr); }
+  .talks-grid { grid-template-columns: 1fr; max-width: 640px; margin: 0 auto; }
+}
+@media (max-width: 768px) {
+  .nav-links { display: none; }
+  .nav-cta .btn-outline { display: none; }
+  .nav-hamburger { display: flex; }
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-card { display: none; }
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+  .about-proof { grid-template-columns: repeat(2,1fr); }
+  .talks-grid { grid-template-columns: 1fr; }
+  .aud-grid { grid-template-columns: 1fr 1fr; }
+  .testi-grid { grid-template-columns: 1fr; }
+  .book-inner { grid-template-columns: 1fr; gap: 40px; }
+  .planner-inner { grid-template-columns: 1fr; gap: 40px; }
+  .format-grid { grid-template-columns: repeat(3,1fr); }
+  .booking-details { grid-template-columns: 1fr; }
+  .footer-inner { flex-direction: column; align-items: flex-start; }
+  .hero-proof { flex-wrap: wrap; gap: 16px; }
+  .hero-proof-divider { display: none; }
+  .section { padding: 70px 0; }
+  .trust-logos { gap: 28px; }
+}
+@media (max-width: 480px) {
+  .aud-grid { grid-template-columns: 1fr; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .hero-btns { flex-direction: column; }
+  .booking-btns { flex-direction: column; align-items: center; }
+  .format-grid { grid-template-columns: 1fr; }
+}
 </style>
 </head>
 <body>
-<nav>
+
+<!-- âââ NAVIGATION ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<nav id="navbar">
   <div class="nav-inner">
-    <div class="nav-logo"><div class="bar"></div><span>Paul Ochieng</span></div>
+    <div class="nav-logo">
+      <div class="bar"></div>
+      <span>Paul Ochieng</span>
+    </div>
     <div class="nav-links">
       <a href="#about">About</a>
       <a href="#talks">Talks</a>
-      <a href="#audiences">Audiences</a>
+      <a href="#planner">For Planners</a>
+      <a href="#testimonials">Testimonials</a>
       <a href="#book">Book</a>
-      <a href="#booking">Book Paul</a>
     </div>
-    <a href="mailto:kineticpluspt@gmail.com?subject=Speaking%20Inquiry" class="btn btn-gold" style="padding:9px 18px;font-size:11px;">Book Paul</a>
+    <div class="nav-cta">
+      <a href="#schedule" class="btn btn-outline btn-sm">View Availability</a>
+      <button class="btn btn-gold btn-sm" onclick="openCalendly(event)">Book Paul to Speak</button>
+    </div>
+    <div class="nav-hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
   </div>
 </nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#talks" onclick="toggleMenu()">Talks</a>
+  <a href="#planner" onclick="toggleMenu()">For Planners</a>
+  <a href="#testimonials" onclick="toggleMenu()">Testimonials</a>
+  <a href="#book" onclick="toggleMenu()">The Book</a>
+  <button class="btn btn-gold" onclick="openCalendly(event)">Book Paul to Speak</button>
+</div>
+
+<!-- âââ HERO ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
 <section id="hero">
   <div class="container">
     <div class="hero-inner">
-      <div>
-        <div class="hero-tag">Keynote Speaker · Author · Coach</div>
-        <h1 class="hero-title">Stand Firm.<br>Grow <span>Bold.</span><br>Become Who<br>You Were Made to Be.</h1>
-        <p class="hero-sub">Paul Ochieng delivers keynotes that don't just inspire — they equip. Built on a proven framework for confidence, identity, and aligned action.</p>
+      <div class="hero-content reveal">
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-dot"></div>
+          Keynote Speaker &nbsp;Â·&nbsp; Author &nbsp;Â·&nbsp; Coach
+        </div>
+        <h1 class="hero-title">
+          Build Leaders Who<br>
+          <span class="line2">Stand Firm</span><br>
+          Under Pressure
+        </h1>
+        <p class="hero-sub">
+          Paul Ochieng delivers keynote experiences that help organizations strengthen confidence, leadership presence, resilience, and aligned action â so teams perform with greater clarity, courage, and consistency.
+        </p>
         <div class="hero-btns">
-          <a href="mailto:kineticpluspt@gmail.com?subject=Speaking%20Inquiry" class="btn btn-gold">Book Paul to Speak</a>
-          <a href="#talks" class="btn btn-outline">See Signature Talks</a>
+          <button class="btn btn-gold btn-lg" onclick="openCalendly(event)">
+            Book Paul to Speak
+          </button>
+          <a href="#video" class="btn btn-outline btn-lg">
+            â¶&nbsp; Watch Demo Reel
+          </a>
+        </div>
+        <div class="hero-proof">
+          <div class="hero-proof-item">
+            <strong>4</strong>
+            Signature Talks
+          </div>
+          <div class="hero-proof-divider"></div>
+          <div class="hero-proof-item">
+            <strong>National</strong>
+            Availability
+          </div>
+          <div class="hero-proof-divider"></div>
+          <div class="hero-proof-item">
+            <strong>In-Person</strong>
+            &amp; Virtual
+          </div>
+          <div class="hero-proof-divider"></div>
+          <div class="hero-proof-item">
+            <strong>48 hr</strong>
+            Response Time
+          </div>
         </div>
       </div>
-      <div class="hero-book">
-        <div class="hero-book-title">ROOTED<span>DEEP</span></div>
-        <div class="hero-book-sub">Now Available</div>
-        <div style="width:40px;height:2px;background:var(--gold);margin:0 auto 16px;"></div>
-        <p class="hero-book-quote">"How to Stand Firm, Grow Bold, and Become Who You Were Always Meant to Be"</p>
+      <div class="hero-card reveal">
+        <div class="hero-card-tag">Now Available</div>
+        <div class="hero-card-title">ROOTED</div>
+        <div class="hero-card-sub">DEEP</div>
+        <div class="hero-card-divider"></div>
+        <p class="hero-card-quote">"How to Stand Firm, Grow Bold, and Become Who You Were Always Meant to Be"</p>
+        <button class="btn btn-gold btn-sm" style="width:100%;justify-content:center;margin-top:20px;" onclick="openCalendly(event)">
+          Book Paul
+        </button>
       </div>
     </div>
   </div>
 </section>
-<section id="about">
+
+<!-- âââ TRUST BAR ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="trust">
+  <div class="container">
+    <p class="trust-label">Trusted By &nbsp;Â·&nbsp; Spoken For &nbsp;Â·&nbsp; Featured In</p>
+    <div class="trust-logos">
+      <span class="trust-logo">Corporate Events</span>
+      <span class="trust-logo">University Summits</span>
+      <span class="trust-logo">Faith Conferences</span>
+      <span class="trust-logo">Leadership Forums</span>
+      <span class="trust-logo">Commencement</span>
+      <span class="trust-logo">L&amp;D Programs</span>
+    </div>
+  </div>
+</section>
+
+<!-- âââ ABOUT ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="about" class="section">
   <div class="container">
     <div class="about-grid">
-      <div class="stats-grid" style="align-self:start;">
-        <div class="stat-card"><div class="stat-num">5</div><div class="stat-label">Signature Talks</div></div>
-        <div class="stat-card"><div class="stat-num">20</div><div class="stat-label">Book Chapters</div></div>
-        <div class="stat-card"><div class="stat-num">4</div><div class="stat-label">Audience Types</div></div>
-        <div class="stat-card" style="border-color:var(--green-mid);"><div class="stat-num" style="color:var(--off-white);">&#x221E;</div><div class="stat-label">Lives Changed</div></div>
+      <div class="about-proof reveal">
+        <div class="proof-card accent">
+          <div class="num">4</div>
+          <div class="lbl">Signature Talks</div>
+        </div>
+        <div class="proof-card">
+          <div class="num">20</div>
+          <div class="lbl">Book Chapters</div>
+        </div>
+        <div class="proof-card">
+          <div class="num">4</div>
+          <div class="lbl">Audience Types</div>
+        </div>
+        <div class="proof-card">
+          <div class="num">100%</div>
+          <div class="lbl">Customized Talks</div>
+        </div>
       </div>
-      <div class="about-body">
-        <div class="section-label">About Paul</div>
-        <h2 class="section-title">More Than Motivation. A Framework for Transformation.</h2>
-        <p>Paul Ochieng is a keynote speaker, author, and confidence coach whose message is built on one core truth: confidence is not something you're born with — it's a skill that can be built, practiced, and grown.</p>
-        <p>His book ROOTED DEEP gives audiences a practical, 5-part framework for building real confidence, shifting identity, and taking aligned action — even when fear is loudest.</p>
-        <ul class="cred-list">
-          <li><span class="cred-dot"></span>Keynote &amp; Motivational Speaker</li>
-          <li><span class="cred-dot"></span>Author of ROOTED DEEP</li>
-          <li><span class="cred-dot"></span>Confidence &amp; Leadership Coach</li>
-          <li><span class="cred-dot"></span>Marketing &amp; Sales Expert</li>
-          <li><span class="cred-dot"></span>Man of Faith · Husband · Father</li>
+      <div class="about-copy reveal">
+        <div class="label">About Paul</div>
+        <div class="divider"></div>
+        <h2 class="heading">More Than Motivation. A Framework That Moves People to Action.</h2>
+        <p>Paul Ochieng is a keynote speaker, author, and coach known for delivering messages that do more than inspire in the moment. His work gives audiences a practical framework for building confidence, strengthening identity, and taking aligned action under pressure.</p>
+        <p>Whether he is speaking to corporate teams, leaders, students, or faith-based audiences, Paul's goal is the same: create real movement that lasts beyond the event.</p>
+        <div class="about-creds">
+          <div class="about-cred"><div class="about-cred-dot"></div>Keynote &amp; Motivational Speaker</div>
+          <div class="about-cred"><div class="about-cred-dot"></div>Author of ROOTED DEEP</div>
+          <div class="about-cred"><div class="about-cred-dot"></div>Confidence &amp; Leadership Coach</div>
+          <div class="about-cred"><div class="about-cred-dot"></div>Marketing &amp; Sales Expert</div>
+          <div class="about-cred"><div class="about-cred-dot"></div>Man of Faith Â· Husband Â· Father</div>
+        </div>
+        <button class="btn btn-gold" style="margin-top:32px;" onclick="openCalendly(event)">
+          Check Availability
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- âââ SIGNATURE TALKS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="talks" class="section">
+  <div class="container">
+    <div class="talks-header reveal">
+      <div class="label">Signature Talks</div>
+      <div class="divider divider-center"></div>
+      <h2 class="heading">Every Keynote Is Built to Create Lasting Change</h2>
+      <p style="font-size:15px;color:var(--gray-md);margin-top:12px;">Each talk can be delivered as a keynote, breakout session, or workshop and is customized for your audience.</p>
+    </div>
+    <div class="talks-grid">
+
+      <div class="talk-card reveal">
+        <div class="talk-num">01</div>
+        <h3 class="talk-title">Rooted Deep</h3>
+        <p class="talk-desc">The signature keynote. Paul's proven, 5-part framework for building unshakable confidence, embracing authentic identity, and taking courageous, aligned action â even when the pressure is highest.</p>
+        <div class="talk-meta">
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Best For</span>
+            <span class="talk-meta-val">Leadership events, conferences, all-hands meetings, commencements</span>
+          </div>
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Takeaway</span>
+            <span class="talk-meta-val">A repeatable framework for building confidence that holds up under pressure</span>
+          </div>
+          <div class="talk-tags">
+            <span class="tag">Keynote</span>
+            <span class="tag">Workshop</span>
+            <span class="tag">Commencement</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk-card reveal">
+        <div class="talk-num">02</div>
+        <h3 class="talk-title">Confidence Is Not a Gift</h3>
+        <p class="talk-desc">Breaking the myth that confidence is something you either have or you don't. This talk dismantles self-limiting beliefs and gives leaders a practical roadmap for developing confidence through deliberate action.</p>
+        <div class="talk-meta">
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Best For</span>
+            <span class="talk-meta-val">Leadership development, corporate teams, emerging leaders</span>
+          </div>
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Takeaway</span>
+            <span class="talk-meta-val">A practical roadmap for developing confidence through action, belief shifts, and reinforcement</span>
+          </div>
+          <div class="talk-tags">
+            <span class="tag">Keynote</span>
+            <span class="tag">Breakout</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk-card reveal">
+        <div class="talk-num">03</div>
+        <h3 class="talk-title">Who Wrote Your Story?</h3>
+        <p class="talk-desc">Examining the internal narratives that shape performance, leadership, and self-perception â and guiding audiences through the process of replacing limiting stories with stronger ones that drive results.</p>
+        <div class="talk-meta">
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Best For</span>
+            <span class="talk-meta-val">Executives, students, high achievers, career transitions, milestone moments</span>
+          </div>
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Takeaway</span>
+            <span class="talk-meta-val">Tools for identifying limiting internal stories and replacing them with stronger ones</span>
+          </div>
+          <div class="talk-tags">
+            <span class="tag">Keynote</span>
+            <span class="tag">Workshop</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="talk-card reveal">
+        <div class="talk-num">04</div>
+        <h3 class="talk-title">Become the Evidence</h3>
+        <p class="talk-desc">Your transformation is someone else's proof that it's possible. This talk challenges audiences to embody the change they want to see â and equips them with a practical lens for accountability and visible leadership.</p>
+        <div class="talk-meta">
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Best For</span>
+            <span class="talk-meta-val">Culture-building events, milestone moments, team kickoffs, commencements</span>
+          </div>
+          <div class="talk-meta-row">
+            <span class="talk-meta-label">Takeaway</span>
+            <span class="talk-meta-val">A practical lens for accountability, example-setting, and visible leadership</span>
+          </div>
+          <div class="talk-tags">
+            <span class="tag">Keynote</span>
+            <span class="tag">Commencement</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div style="text-align:center;margin-top:36px;">
+      <button class="btn btn-gold btn-lg" onclick="openCalendly(event)">Discuss the Right Talk for Your Event</button>
+    </div>
+  </div>
+</section>
+
+<!-- âââ AUDIENCES ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="audiences" class="section">
+  <div class="container">
+    <div class="aud-header reveal">
+      <div class="label">Who Books Paul</div>
+      <div class="divider divider-center"></div>
+      <h2 class="heading">A Message Built for Every Room</h2>
+    </div>
+    <div class="aud-grid">
+      <div class="aud-card reveal">
+        <div class="aud-icon">ð¢</div>
+        <div class="aud-title">Corporate</div>
+        <ul class="aud-items">
+          <li>Leadership summits &amp; all-hands</li>
+          <li>HR &amp; L&amp;D events</li>
+          <li>Culture &amp; performance initiatives</li>
+          <li>Emerging leader programs</li>
+        </ul>
+      </div>
+      <div class="aud-card reveal">
+        <div class="aud-icon">ð</div>
+        <div class="aud-title">Universities</div>
+        <ul class="aud-items">
+          <li>Commencement &amp; convocation</li>
+          <li>Student leadership programs</li>
+          <li>Identity &amp; transition programming</li>
+          <li>Campus-wide conferences</li>
+        </ul>
+      </div>
+      <div class="aud-card reveal">
+        <div class="aud-icon">ð</div>
+        <div class="aud-title">High Schools</div>
+        <ul class="aud-items">
+          <li>Graduation &amp; award ceremonies</li>
+          <li>Leadership development</li>
+          <li>College readiness programs</li>
+          <li>Character &amp; confidence building</li>
+        </ul>
+      </div>
+      <div class="aud-card reveal">
+        <div class="aud-icon">âï¸</div>
+        <div class="aud-title">Faith-Based</div>
+        <ul class="aud-items">
+          <li>Churches &amp; conferences</li>
+          <li>Men's events &amp; ministry gatherings</li>
+          <li>Faith-centered leadership events</li>
+          <li>Youth &amp; young adult programming</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
-<section id="talks">
+
+<!-- âââ VIDEO ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="video" class="section">
   <div class="container">
-    <div class="talks-intro">
-      <div class="section-label">Signature Talks</div>
-      <h2 class="section-title">Every Talk Is Built to Create Change</h2>
+    <div class="video-header reveal">
+      <div class="label">Demo Reel</div>
+      <div class="divider divider-center"></div>
+      <h2 class="heading text-center">Watch Paul in Action</h2>
     </div>
-    <div class="talks-grid">
-      <div class="talk-card">
-        <div class="talk-num">01</div>
-        <div class="talk-title">Rooted Deep</div>
-        <p class="talk-desc">The signature keynote. A 5-part framework for building unshakable confidence, embracing authentic identity, and taking aligned action.</p>
-        <div class="talk-formats"><span class="talk-format">Keynote 45-60 min</span><span class="talk-format">Breakout 30 min</span><span class="talk-format">Workshop</span></div>
+    <p class="video-sub reveal">See Paul's stage presence, delivery style, and audience connection before you book. This is the fastest way for event planners to preview the full experience.</p>
+    <div class="video-frame reveal">
+      <!-- Replace the data-video-id below with Paul's YouTube or Vimeo ID when available -->
+      <div class="video-placeholder" id="videoThumb" onclick="loadVideo()">
+        <div class="video-play">
+          <div class="video-play-icon"></div>
+        </div>
+        <p class="video-placeholder-text">Watch Demo Reel</p>
       </div>
-      <div class="talk-card">
-        <div class="talk-num">02</div>
-        <div class="talk-title">Confidence Is Not a Gift</div>
-        <p class="talk-desc">Dismantling the myth that confidence is innate. For corporate teams, leadership development programs, and anyone at a crossroads.</p>
-        <div class="talk-formats"><span class="talk-format">Keynote</span><span class="talk-format">Breakout</span></div>
+      <iframe
+        id="videoFrame"
+        style="display:none;width:100%;height:100%;border:none;"
+        src=""
+        title="Paul Ochieng Demo Reel"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <p class="video-note"><!-- Update YOUTUBE_VIDEO_ID below with Paul's actual video ID --></p>
+    <div style="text-align:center;margin-top:28px;">
+      <button class="btn btn-gold" onclick="openCalendly(event)">Book Paul After Watching</button>
+    </div>
+  </div>
+</section>
+
+<!-- âââ EVENT PLANNER âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="planner" class="section">
+  <div class="container">
+    <div class="planner-inner">
+      <div class="planner-copy reveal">
+        <div class="label">For Event Planners</div>
+        <div class="divider"></div>
+        <h2 class="heading">Simple to Book. Easy to Work With. Built to Deliver.</h2>
+        <p>Paul understands that event planners need a speaker who's professional, prepared, and easy to collaborate with â not just someone who's great on stage. From the first conversation to the final debrief, he makes the process smooth.</p>
+        <p>Every booking includes a pre-event consultation to ensure the talk is tailored to your audience, your event theme, and your goals.</p>
+        <div class="planner-options">
+          <div class="planner-options-title">Keynote Format Options</div>
+          <div class="format-grid">
+            <div class="format-card">
+              <div class="time">30</div>
+              <div class="ftype">min Â· Breakout</div>
+            </div>
+            <div class="format-card">
+              <div class="time">45</div>
+              <div class="ftype">min Â· Keynote</div>
+            </div>
+            <div class="format-card">
+              <div class="time">60</div>
+              <div class="ftype">min Â· Keynote</div>
+            </div>
+          </div>
+          <div class="format-grid" style="grid-template-columns:1fr 1fr;">
+            <div class="format-card">
+              <div class="time" style="font-size:15px;">Half-Day</div>
+              <div class="ftype">Workshop Â· 3-4 hrs</div>
+            </div>
+            <div class="format-card">
+              <div class="time" style="font-size:15px;">Virtual</div>
+              <div class="ftype">Online Delivery</div>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-gold" style="margin-top:28px;" onclick="openCalendly(event)">
+          Start the Conversation
+        </button>
       </div>
-      <div class="talk-card">
-        <div class="talk-num">03</div>
-        <div class="talk-title">Who Wrote Your Story?</div>
-        <p class="talk-desc">Identifying the narratives running your life — and the proven process for rewriting them. For executives, graduates, and high achievers.</p>
-        <div class="talk-formats"><span class="talk-format">Keynote</span><span class="talk-format">Workshop</span></div>
-      </div>
-      <div class="talk-card">
-        <div class="talk-num">04</div>
-        <div class="talk-title">Become the Evidence</div>
-        <p class="talk-desc">Your transformation is someone else's proof that it's possible. For milestone moments and organizations building cultures of accountability.</p>
-        <div class="talk-formats"><span class="talk-format">Keynote</span><span class="talk-format">Commencement</span></div>
+      <div class="planner-features reveal">
+        <div class="planner-feature">
+          <div class="planner-feature-icon">ð¯</div>
+          <div class="planner-feature-text">
+            <strong>Fully Customized</strong>
+            <span>Every talk is tailored to your audience, industry, and event theme â no generic presentations.</span>
+          </div>
+        </div>
+        <div class="planner-feature">
+          <div class="planner-feature-icon">ð¤</div>
+          <div class="planner-feature-text">
+            <strong>Pre-Event Consultation</strong>
+            <span>A dedicated call before every event to align on objectives, audience context, and desired outcomes.</span>
+          </div>
+        </div>
+        <div class="planner-feature">
+          <div class="planner-feature-icon">ð»</div>
+          <div class="planner-feature-text">
+            <strong>In-Person &amp; Virtual</strong>
+            <span>Available for on-site keynotes, virtual presentations, and hybrid event formats nationwide.</span>
+          </div>
+        </div>
+        <div class="planner-feature">
+          <div class="planner-feature-icon">ð¦</div>
+          <div class="planner-feature-text">
+            <strong>Full Speaker Package</strong>
+            <span>Bio, headshots, A/V requirements, and run-of-show documents provided ahead of your event.</span>
+          </div>
+        </div>
+        <div class="planner-feature">
+          <div class="planner-feature-icon">ð</div>
+          <div class="planner-feature-text">
+            <strong>Bulk Book Orders Available</strong>
+            <span>ROOTED DEEP can be bundled with keynote bookings for team takeaways and continued learning.</span>
+          </div>
+        </div>
+        <div class="planner-feature">
+          <div class="planner-feature-icon">â¡</div>
+          <div class="planner-feature-text">
+            <strong>Fast Response</strong>
+            <span>All inquiries receive a response within 48 hours. Availability can often be confirmed same week.</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section id="audiences">
+
+<!-- âââ TESTIMONIALS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="testimonials" class="section">
   <div class="container">
-    <div style="text-align:center;max-width:600px;margin:0 auto 48px;">
-      <div class="section-label">Who Books Paul</div>
-      <h2 class="section-title">A Message Built for Every Room</h2>
-    </div>
-    <div class="aud-grid">
-      <div class="aud-card"><div class="aud-icon">&#128962;</div><div class="aud-title">Corporate</div><p class="aud-desc">HR, L&amp;D, Leadership Summits, DEI initiatives, all-hands meetings</p></div>
-      <div class="aud-card"><div class="aud-icon">&#127891;</div><div class="aud-title">Universities</div><p class="aud-desc">Commencement, Convocation, Student Affairs, Leadership Programs</p></div>
-      <div class="aud-card"><div class="aud-icon">&#128218;</div><div class="aud-title">High Schools</div><p class="aud-desc">Graduation, Character Education, College Prep, Student Leadership</p></div>
-      <div class="aud-card"><div class="aud-icon">&#10013;</div><div class="aud-title">Faith-Based</div><p class="aud-desc">Churches, Conferences, Men's Ministry, Faith Events</p></div>
-    </div>
-  </div>
-</section>
-<section id="testimonials">
-  <div class="container">
-    <div style="text-align:center;max-width:600px;margin:0 auto 48px;">
-      <div class="section-label">What Audiences Say</div>
-      <h2 class="section-title">The Words That Stay in the Room</h2>
+    <div class="testi-header reveal">
+      <div class="label">What Audiences Say</div>
+      <div class="divider divider-center"></div>
+      <h2 class="heading">Words That Stay in the Room</h2>
     </div>
     <div class="testi-grid">
-      <div class="testi-card">
-        <p class="testi-quote">"I didn't believe that people like us could actually change our lives — until I watched you doing it."</p>
-        <div class="testi-attr">Audience Member · Personal Development Event</div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">âââââ</div>
+        <p class="testi-quote">"I didn't believe that people like us could actually change our lives â until I watched you doing it. This wasn't a speech. It was a framework I could actually use."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">A</div>
+          <div>
+            <div class="testi-name">Audience Member</div>
+            <div class="testi-role">Personal Development Event</div>
+          </div>
+        </div>
       </div>
-      <div class="testi-card">
-        <p class="testi-quote">"Paul doesn't just motivate — he hands you a framework you can actually use. Our team left with more clarity than they came in with."</p>
-        <div class="testi-attr">Corporate Event Organizer</div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">âââââ</div>
+        <p class="testi-quote">"Paul doesn't just motivate â he hands you a framework you can actually use. Our team left with more clarity than they came in with. The energy in the room was unlike any speaker we've had."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">E</div>
+          <div>
+            <div class="testi-name">Event Organizer</div>
+            <div class="testi-role">Corporate Leadership Summit</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">âââââ</div>
+        <p class="testi-quote">"We brought Paul in for our all-hands kickoff and the response was immediate. People were still talking about it three weeks later. He understood our culture and made the message land for every level of our team."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">M</div>
+          <div>
+            <div class="testi-name">Director of People &amp; Culture</div>
+            <div class="testi-role">Mid-Size Technology Company</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal">
+        <div class="testi-stars">âââââ</div>
+        <p class="testi-quote">"Our students needed someone who could speak with authenticity and back it up with substance. Paul delivered both. The standing ovation was earned â they connected with every word."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">D</div>
+          <div>
+            <div class="testi-name">Dean of Student Affairs</div>
+            <div class="testi-role">University Leadership Conference</div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<section id="book">
+
+<!-- âââ THE BOOK ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="book" class="section">
   <div class="container">
     <div class="book-inner">
-      <div class="book-cover">
-        <div class="book-cover-title">ROOTED</div>
-        <div class="book-cover-sub">DEEP</div>
-        <div class="book-cover-line"></div>
-        <p class="book-cover-tagline">How to Stand Firm, Grow Bold, and Become Who You Were Always Meant to Be</p>
-        <div style="margin-top:24px;font-size:11px;color:var(--gray-md);letter-spacing:0.1em;text-transform:uppercase;">By Paul Ochieng</div>
+      <div class="book-cover reveal">
+        <div class="book-title">ROOTED</div>
+        <div class="book-subtitle">DEEP</div>
+        <div class="book-rule"></div>
+        <p class="book-tagline">How to Stand Firm, Grow Bold, and Become Who You Were Always Meant to Be</p>
+        <div class="book-author">By Paul Ochieng</div>
       </div>
-      <div class="book-detail">
-        <div class="section-label">The Book</div>
-        <h2 class="section-title">The Foundation Behind Every Talk</h2>
-        <p>ROOTED DEEP is the book behind the framework. It walks readers through 20 chapters of real stories, hard truths, and practical tools for building confidence that doesn't crumble under pressure.</p>
-        <p>Every keynote Paul delivers is built on the principles in this book — which means your audience gets the talk and the resource to go deeper.</p>
-        <div class="book-chapters">
-          <div class="chapter-item"><span class="chapter-num">01</span>The Version That Already Exists</div>
-          <div class="chapter-item"><span class="chapter-num">02</span>Confidence Is Not a Gift</div>
-          <div class="chapter-item"><span class="chapter-num">03</span>Who Wrote Your Story?</div>
-          <div class="chapter-item"><span class="chapter-num">04</span>Fear Has Been Holding the Pen</div>
-          <div class="chapter-item"><span class="chapter-num">05</span>Action Dissolves Fear</div>
-          <div style="padding:8px 0;font-size:12px;color:var(--gray-md);">+ 15 more chapters</div>
+      <div class="book-copy reveal">
+        <div class="label">The Book</div>
+        <div class="divider"></div>
+        <h2 class="heading">The Book Behind the Framework</h2>
+        <p>ROOTED DEEP extends the message beyond the stage. It gives audiences a practical resource they can revisit after the event, making it ideal for continued team discussion, leadership development, and bulk book orders tied to conferences, retreats, and organizational initiatives.</p>
+        <p>Every keynote Paul delivers is built on the principles in this book â meaning your audience leaves with both the talk and the resource to go deeper on their own.</p>
+        <div class="book-uses">
+          <div class="book-use"><span class="book-use-icon">ð</span> Individual reading &amp; post-event reflection</div>
+          <div class="book-use"><span class="book-use-icon">ð¥</span> Team discussion guides &amp; leadership cohorts</div>
+          <div class="book-use"><span class="book-use-icon">ð¦</span> Bulk orders for conferences &amp; organizational initiatives</div>
+          <div class="book-use"><span class="book-use-icon">ð</span> Event attendee gift &amp; keynote bundle</div>
         </div>
-        <div style="margin-top:28px;">
-          <a href="mailto:kineticpluspt@gmail.com?subject=ROOTED%20DEEP%20Book%20Inquiry" class="btn btn-outline">Inquire About Bulk Orders</a>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;">
+          <button class="btn btn-gold" onclick="openCalendly(event)">Bundle Books with Your Event</button>
+          <a href="mailto:kineticpluspt@gmail.com?subject=ROOTED%20DEEP%20Bulk%20Order%20Inquiry" class="btn btn-outline">Inquire About Bulk Orders</a>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section id="booking">
+
+<!-- âââ CALENDLY INLINE SCHEDULE âââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="schedule" class="section" style="background:var(--bg2);">
   <div class="container">
-    <div class="booking-inner">
-      <div class="section-label" style="text-align:center;">Book Paul</div>
-      <h2 class="section-title">Ready to Bring This Message to Your Audience?</h2>
-      <p>Paul is available nationally for keynote addresses, corporate events, workshops, commencement ceremonies, and school engagements.</p>
-      <a href="mailto:kineticpluspt@gmail.com?subject=Speaking%20Inquiry" class="btn btn-gold" style="font-size:15px;padding:16px 36px;">Book Paul to Speak &#8594;</a>
-      <div class="booking-details">
-        <div class="booking-detail"><div class="booking-detail-label">Response Time</div><div class="booking-detail-val">Within 48 hours</div></div>
-        <div class="booking-detail"><div class="booking-detail-label">Availability</div><div class="booking-detail-val">Local, Regional &amp; National</div></div>
-        <div class="booking-detail"><div class="booking-detail-label">Contact</div><div class="booking-detail-val">kineticpluspt@gmail.com</div></div>
+    <div class="schedule-header reveal">
+      <div class="label">Book a Time</div>
+      <div class="divider divider-center"></div>
+      <h2 class="heading text-center">Bring Paul to Your Next Event</h2>
+      <p>Choose a time to discuss your event, audience, and goals.</p>
+    </div>
+    <div class="calendly-wrap reveal">
+      <div
+        class="calendly-inline-widget"
+        data-url="https://calendly.com/kineticpluspt?hide_event_type_details=0&hide_gdpr_banner=1&background_color=0D1117&text_color=F0EDE8&primary_color=C9962B"
+        style="min-width:320px;height:720px;">
       </div>
     </div>
   </div>
 </section>
+
+<!-- âââ FINAL BOOKING CTA âââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<section id="booking" class="section">
+  <div class="container">
+    <div class="booking-inner reveal">
+      <div class="label text-center">Get Started</div>
+      <div class="divider divider-center"></div>
+      <h2 class="heading text-center">Ready to Book a Keynote?</h2>
+      <p>Whether you're planning a keynote, workshop, commencement, leadership event, or conference session â this is the fastest way to explore fit and availability.</p>
+      <div class="booking-btns">
+        <button class="btn btn-gold btn-lg" onclick="openCalendly(event)">
+          Book Paul to Speak
+        </button>
+        <a href="#schedule" class="btn btn-outline btn-lg">View Availability</a>
+      </div>
+      <p class="booking-email">Prefer email? Reach out directly at <a href="mailto:kineticpluspt@gmail.com">kineticpluspt@gmail.com</a></p>
+      <div class="booking-details">
+        <div class="booking-detail">
+          <div class="booking-detail-label">Response Time</div>
+          <div class="booking-detail-val">Within 48 hours</div>
+        </div>
+        <div class="booking-detail">
+          <div class="booking-detail-label">Availability</div>
+          <div class="booking-detail-val">Local, Regional &amp; National</div>
+        </div>
+        <div class="booking-detail">
+          <div class="booking-detail-label">Formats</div>
+          <div class="booking-detail-val">In-Person &amp; Virtual</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- âââ FOOTER ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
 <footer>
-  <p>&#169; 2026 Paul Ochieng &#183; Speaker &#183; Author &#183; Coach &#183; <a href="mailto:kineticpluspt@gmail.com">kineticpluspt@gmail.com</a></p>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <div class="bar"></div>
+        <span>Paul Ochieng</span>
+      </div>
+      <p>Â© 2026 Paul Ochieng Â· Speaker Â· Author Â· Coach</p>
+      <p>
+        <a href="mailto:kineticpluspt@gmail.com">kineticpluspt@gmail.com</a>
+        &nbsp;Â·&nbsp;
+        <a href="https://calendly.com/kineticpluspt" target="_blank" rel="noopener">Book a Call</a>
+      </p>
+    </div>
+  </div>
 </footer>
+
+<!-- âââ CALENDLY WIDGET JS ââââââââââââââââââââââââââââââââââââââââââââââââââââââ -->
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<script>
+// ââ Calendly URL âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+const CALENDLY_URL = 'https://calendly.com/kineticpluspt';
+
+function openCalendly(e) {
+  if (e) e.preventDefault();
+  Calendly.initPopupWidget({ url: CALENDLY_URL });
+  return false;
+}
+
+// ââ Initialize Calendly inline widget âââââââââââââââââââââââââââââââââââââââ
+window.addEventListener('load', function() {
+  if (window.Calendly) {
+    Calendly.initInlineWidget({
+      url: CALENDLY_URL + '?hide_gdpr_banner=1&background_color=0D1117&text_color=F0EDE8&primary_color=C9962B',
+      parentElement: document.querySelector('.calendly-inline-widget'),
+    });
+  }
+});
+
+// ââ Video demo reel ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+// Replace YOUTUBE_VIDEO_ID with Paul's actual YouTube video ID
+const YOUTUBE_VIDEO_ID = ''; // e.g. 'dQw4w9WgXcQ'
+
+function loadVideo() {
+  const frame = document.getElementById('videoFrame');
+  const thumb = document.getElementById('videoThumb');
+  if (YOUTUBE_VIDEO_ID) {
+    frame.src = 'https://www.youtube.com/embed/' + YOUTUBE_VIDEO_ID + '?autoplay=1&rel=0';
+    frame.style.display = 'block';
+    thumb.style.display = 'none';
+  } else {
+    // Fallback: open booking if no video is set
+    openCalendly(null);
+  }
+}
+
+// ââ Mobile menu ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// ââ Scroll reveal ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+// ââ Stagger reveal for grid children ââââââââââââââââââââââââââââââââââââââââ
+document.querySelectorAll('.talks-grid .talk-card, .aud-grid .aud-card, .testi-grid .testi-card, .planner-features .planner-feature').forEach((el, i) => {
+  el.style.transitionDelay = (i % 4) * 80 + 'ms';
+});
+
+// ââ Navbar scroll effect âââââââââââââââââââââââââââââââââââââââââââââââââââââ
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  if (window.scrollY > 60) {
+    nav.style.borderBottomColor = 'rgba(30,38,48,.8)';
+    nav.style.boxShadow = '0 4px 32px rgba(0,0,0,.4)';
+  } else {
+    nav.style.borderBottomColor = 'var(--border)';
+    nav.style.boxShadow = 'none';
+  }
+});
+
+// ââ Close mobile menu on outside click âââââââââââââââââââââââââââââââââââââââ
+document.addEventListener('click', (e) => {
+  const menu = document.getElementById('mobileMenu');
+  const hamburger = document.getElementById('hamburger');
+  if (menu.classList.contains('open') && !menu.contains(e.target) && !hamburger.contains(e.target)) {
+    menu.classList.remove('open');
+  }
+});
+</script>
+
 </body>
 </html>
